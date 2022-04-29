@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+/*Esse será o documento principal de folha de estilo usado em todas as paginas. nesse documentos contem todos os padrões que serão utilizados */
+
+:root{
+    --black-color: #0B0D17;
+    --secondary-color: #D0D6F9;
+    --white-color: #fff;
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+}
+
+h1{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+}
+
+h2{
+    font-family: 'Bellefair', serif;
+    font-size:100px;
+}
+
+h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+}
+
+h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+}
+
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    text-align: justify;    
+}
