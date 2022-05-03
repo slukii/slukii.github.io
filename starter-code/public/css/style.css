@@ -6,6 +6,7 @@
     --black-color: #0B0D17;
     --secondary-color: #D0D6F9;
     --white-color: #fff;
+    --gray-color:gray;
     font-size: 18px;
 }
 
@@ -38,6 +39,10 @@ h5{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     letter-spacing: 4.75px;
+}
+
+h5 span{
+    color:var(--gray-color);
 }
 
 p{

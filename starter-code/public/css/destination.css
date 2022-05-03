@@ -1,0 +1,14 @@
+body{
+    background:url("/starter-code/assets/destination/background-destination-desktop.jpg");
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+body iframe{
+    width: 98vw;
+    height: 80vh;
+}
+
