@@ -1,0 +1,10 @@
+
+body main{
+    display: flex;
+    justify-content:space-around;   
+} 
+
+body main section.right-side{
+    width: 445px;
+    height:472px;
+}

@@ -7,8 +7,37 @@ body{
     align-items:center;
 }
 
+body header nav ul li a.item-nav-destination{
+    border-bottom: 1px solid var(--white-color)
+}
+
 body iframe{
     width: 98vw;
     height: 80vh;
 }
 
+/*********************************************
+        NAV PARA TODOS OS DESTINOS
+*********************************************/
+
+body main section.right-side nav.nav-destination{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size:16px;
+    letter-spacing:2.7px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+main section.right-side nav.nav-destination ul{
+    display: flex;
+    list-style: none;
+    padding:0;
+}
+
+main section.right-side nav.nav-destination ul li{
+    margin-left: 2vw;
+}
+
+main section.right-side nav.nav-destination ul li:first-child{
+    margin-left: 0;
+}
