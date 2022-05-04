@@ -2,7 +2,7 @@ body{
     background: transparent;
 }
 
-body main section.right-side nav.nav-destination ul li a.destination-moon{
+body main section.right-side nav.nav-destination ul li a.destination-mars{
     padding-bottom:2vh;
     border-bottom: 3px solid var(--white-color);
     color:var(--white-color);

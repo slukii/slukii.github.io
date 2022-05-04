@@ -1,38 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="../public/css/style.css">
+  <link rel="stylesheet" href="../public/css/destination.css">
+  <link rel="stylesheet" href="../public/css/destination-europa.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <main>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <section class="left-side">  
+      <h5><span>01</span> Pick your destination</h5>
+      <img src="../assets/destination/image-europa.png" alt="Imagem do planeta europa">
+    </section>
 
-  01 Pick your destination
+    <section class="right-side">
+      <nav class="nav-destination">
+        <ul>
+          <li>
+            <a class="destination-moon" href="destination-moon.html">Moon</a>
+          </li>
+          <li>
+            <a class="destination-mars" href="destination-mars.html">Mars</a>
+          </li>
+          <li>
+            <a class="destination-europa" href="destination-europa.html">Europa</a>
+          </li>
+          <li>
+            <a class="destination-titan" href="destination-titan.html">Titan</a>
+          </li>
+        </ul>
+      </nav>
 
-  Moon
-  Mars
-  Europa
-  Titan
+      <h2>Europa</h2>
 
-  Europa
+      <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+        winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+        ice skating, curling, hockey, or simple relaxation in your snug 
+        wintery cabin.</p>
+      
+      <div class="solid-line"></div>
 
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-  ice skating, curling, hockey, or simple relaxation in your snug 
-  wintery cabin.
+      <div class="other-informations">
 
-  Avg. distance
-  628 mil. km
+        <section class="average-info">
+          <p>Avg. distance</p>
+          <h5>628 mil. km</h5>
+        </section>
+        
+        <section class="trave-info">
+          <p>Est. travel time</p>
+          <h5>3 years</h5>
+        </section>
+        
+      </div>
 
-  Est. travel time
-  3 years
+    </section>
+  </main>
 </body>
 </html>

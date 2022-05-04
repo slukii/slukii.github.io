@@ -1,37 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="../public/css/style.css">
+  <link rel="stylesheet" href="../public/css/destination.css">
+  <link rel="stylesheet" href="../public/css/destination-titan.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <main>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <section class="left-side">  
+      <h5><span>01</span> Pick your destination</h5>
+      <img src="../assets/destination/image-titan.png" alt="Imagem da lua de saturno titã">
+    </section>
 
-  01 Pick your destination
+    <section class="right-side">
+      <nav class="nav-destination">
+        <ul>
+          <li>
+            <a class="destination-moon" href="destination-moon.html">Moon</a>
+          </li>
+          <li>
+            <a class="destination-mars" href="destination-mars.html">Mars</a>
+          </li>
+          <li>
+            <a class="destination-europa" href="destination-europa.html">Europa</a>
+          </li>
+          <li>
+            <a class="destination-titan" href="destination-titan.html">Titan</a>
+          </li>
+        </ul>
+      </nav>
 
-  Moon
-  Mars
-  Europa
-  Titan
+      <h2>Titan</h2>
 
-  Titan
+      <p>The only moon known to have a dense atmosphere other than Earth, Titan 
+        is a home away from home (just a few hundred degrees colder!). As a 
+        bonus, you get striking views of the Rings of Saturn.</p>
+      
+      <div class="solid-line"></div>
 
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
+      <div class="other-informations">
 
-  Avg. distance
-  1.6 bil. km
+        <section class="average-info">
+          <p>Avg. distance</p>
+          <h5>1.6 bil. km</h5>
+        </section>
+        
+        <section class="trave-info">
+          <p>Est. travel time</p>
+          <h5>7 years</h5>
+        </section>
+        
+      </div>
 
-  Est. travel time
-  7 years
+    </section>
+  </main>
 </body>
 </html>
