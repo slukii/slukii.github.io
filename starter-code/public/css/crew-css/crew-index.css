@@ -1,0 +1,57 @@
+body{
+padding-top: 5vh;
+height:100vh;
+}
+
+body main{
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    height:80vh;
+}
+
+body main section.crew-informations{
+    width:488px;
+}
+
+body main section.crew-informations h3,
+body main section.crew-informations h4{
+    color:var(--white-color);
+    margin:0;
+}
+
+body main section.crew-informations h3{
+    text-transform:uppercase;
+    font-weight: 400;
+}
+
+body main section.crew-informations h4{
+    font-weight: 100;
+}
+
+body main section.crew-informations p{
+    color: var(--secondary-color);
+    margin: 5vh auto;
+}
+
+body section.crew-informations nav.nav-dots{
+    margin-top: 10vh;
+}
+
+body main section.crew-informations nav.nav-dots ul{
+    list-style-type: none;
+    display:flex;
+}
+
+body main section.crew-informations nav.nav-dots ul li{
+    width:32px; height:32px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin-right: 2vw;
+} 
+
+body main section.crew-informations nav.nav-dots ul li:hover{
+    background-color: var(--gray-color)
+} 
