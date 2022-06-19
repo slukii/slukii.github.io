@@ -13,7 +13,7 @@ body main{
 }
 
 body main section.crew-informations{
-    width:488px;
+    width:615px;
 }
 
 body main section.crew-informations h3,
@@ -62,4 +62,5 @@ body main section.crew-informations nav.nav-dots ul li.selected{
 body main section.crew-informations nav.nav-dots ul li:hover{
     background-color: var(--secondary-color);
     opacity:1;
-} 
+}
+
