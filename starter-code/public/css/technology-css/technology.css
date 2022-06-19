@@ -33,7 +33,12 @@ body main section.informations ul li{
     text-align: center;
     border: 1px solid var(--gray-color);
     color:var(--white-color);
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
     margin-bottom:2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: 400ms ease-in;
 }
 
@@ -47,9 +52,6 @@ body main section.informations ul li:hover{
     border-color:var(--white-color);
 }
 
-body main section.informations ul li h4{
-    margin-top:20px;
-}
 
 body main section.informations article{
     width:470px;
