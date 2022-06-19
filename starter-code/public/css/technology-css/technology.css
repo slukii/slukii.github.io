@@ -1,0 +1,71 @@
+
+body{
+    padding-top: 5vh;
+    height:100vh;
+}
+
+/*******************************************************
+                    MAIN
+*******************************************************/
+body main{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5vh;
+}
+
+body main section.informations{
+    margin-left: 6vw;
+}
+
+body main section.informations div{
+    display:flex;
+    align-items: center;
+}
+
+body main section.informations ul{
+    list-style-type: none;
+    margin-right: 5vw;
+}
+
+body main section.informations ul li{
+    width: 70px; height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid var(--gray-color);
+    color:var(--white-color);
+    margin-bottom:2vh;
+    transition: 400ms ease-in;
+}
+
+body main section.informations ul li.selected{
+    background-color: var(--white-color);
+    color: var(--black-color)
+}
+
+body main section.informations ul li:hover{
+    cursor:pointer;
+    border-color:var(--white-color);
+}
+
+body main section.informations ul li h4{
+    margin-top:20px;
+}
+
+body main section.informations article{
+    width:470px;
+}
+
+body main section.informations article p.title{
+    color: var(--secondary-color);
+    margin:0;
+}
+
+body main section.informations article h3{
+    color: var(--white-color);
+    margin:0;
+}
+
+body main section.informations article p.paragraph-text{
+    font-size:16px;
+    color: var(--secondary-color)
+}
